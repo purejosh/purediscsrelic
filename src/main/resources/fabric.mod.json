@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "purediscsrelic",
+  "version": "1.0.0",
+  "name": "Pure Discs - Relic",
+  "description": "Adds the awesome new music disc Relic, which released with 1.20!",
+  "authors": [
+    "purejosh"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/pure-discs-relic-fabric-forge",
+    "sources": ""
+  },
+  "license": "Custom license",
+  "icon": "assets/purediscsrelic/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.purejosh.purediscsrelic.PurediscsrelicMod"
+    ],
+    "client": [
+      "net.purejosh.purediscsrelic.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "mixins": [
+    "purediscsrelic.mixins.json"
+  ]
+}

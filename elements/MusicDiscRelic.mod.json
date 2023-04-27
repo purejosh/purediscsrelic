@@ -1,0 +1,19 @@
+{
+  "_fv": 39,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "texture": "music_disc_relic",
+    "description": "Aaron Cherof - Relic",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:relic"
+    },
+    "lengthInTicks": 4380,
+    "analogOutput": 14
+  }
+}

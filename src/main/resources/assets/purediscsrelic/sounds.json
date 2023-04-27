@@ -1,0 +1,11 @@
+{
+  "relic": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "purediscsrelic:relic",
+        "stream": true
+      }
+    ]
+  }
+}
